@@ -92,11 +92,11 @@ Sorter sorter = (Sorter) c.newInstance();
 
 #### 2.将自己在`W02`中实现的两个排序算法（冒泡排序除外）分别编码进自选图片得到隐写术图，在markdown中给出两个图片的URL；
 
-因为没有web服务器，所以使用了本地文件路径作为url，**（这里使用的是相对路径）**
+因为没有web服务器，所以使用了本地文件路径作为url，**（这里使用的是绝对路径）**
 
-SelectSorter:`"file:///./example.SelectSorter.png"`
+**SelectSorter:**`""file:///d:/git/jw03-Baykin5/SelectSorter.png""`
 
-QuickSorter:`"file:///./example.QuickSorter.png"`
+**QuickSorter:**`""file:///d:/git/jw03-Baykin5/QuickSorter.png""`
 
 #### 3.用你的图片给`W02`中example的老头赋予排序能力，得到排序结果（动画），上传动画到asciinema，在markdown中给出两个动画的链接。
 
@@ -105,3 +105,19 @@ SelectSort:[jwork-W03-SelectSort - asciinema](https://asciinema.org/a/438553)
 QuickSort:[jwork-W03-QuickSort - asciinema](https://asciinema.org/a/438554)
 
 #### 4.联系另一位同学，用他的图片给`W02`中example的老头赋予排序能力，在markdown中记录你用的谁的图片，得到结果是否正确。
+
+我使用了Mars-Z777同学的图片（在github classroom中随机选择了一位同学）
+
+不知是因为网络延迟还是github上传图片会压缩的问题，url使用github的网址找不到类，因此这里还是下载到本地，用本地文件路径url进行解码。
+
+测试了这位同学选择排序和快速排序的图片，结果正确。
+
+附：测试结果
+
+**QuickSort:**
+
+![otherPic1.jpg](https://github.com/jwork-2021/jw03-Baykin5/blob/main/pic/otherPic1.jpg?raw=true)
+
+**SelectSort:**
+
+![otherPic2.jpg](https://github.com/jwork-2021/jw03-Baykin5/blob/main/pic/otherPic2.jpg?raw=true)
