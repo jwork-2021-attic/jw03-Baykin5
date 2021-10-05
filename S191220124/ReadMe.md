@@ -92,11 +92,13 @@ Sorter sorter = (Sorter) c.newInstance();
 
 #### 2.将自己在`W02`中实现的两个排序算法（冒泡排序除外）分别编码进自选图片得到隐写术图，在markdown中给出两个图片的URL；
 
-因为没有web服务器，所以使用了本地文件路径作为url，**（这里使用的是绝对路径）**
+因为没有web服务器，所以使用了本地文件路径作为url，**这里使用的是相对路径**
 
-**SelectSorter:**`""file:///d:/git/jw03-Baykin5/SelectSorter.png""`
+（刚开始用相对路径总是错误找不到文件，后来经群友提醒得知要将file后的三个斜杠去掉）
 
-**QuickSorter:**`""file:///d:/git/jw03-Baykin5/QuickSorter.png""`
+**SelectSorter:**`""file:SelectSorter.png""`
+
+**QuickSorter:**`""file:QuickSorter.png""`
 
 #### 3.用你的图片给`W02`中example的老头赋予排序能力，得到排序结果（动画），上传动画到asciinema，在markdown中给出两个动画的链接。
 
